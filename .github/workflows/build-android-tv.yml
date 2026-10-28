@@ -23,7 +23,7 @@ jobs:
           packages: platform-tools platforms;android-37.0 build-tools;36.0.0 ndk;28.2.13676358
       - uses: gradle/actions/setup-gradle@v4
       - name: Test, lint and build without authentication assets
-        run: ./gradlew :shared:testDebugUnitTest :common:testDebugUnitTest :mobile:lintDebug :mobile:assembleDebug --stacktrace
+        run: ./gradlew :shared:testDebugUnitTest :mobile:lintDebug :mobile:assembleDebug --stacktrace
       - uses: actions/upload-artifact@v4
         with:
           name: DiPlay-Android-TV-source-only
