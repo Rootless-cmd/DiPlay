@@ -13,7 +13,7 @@ data class AirPlayPhysicalSizeMm(
 /** User-adjustable display values with the same stepped ranges used by the settings UI. */
 object AirPlayDisplaySettings {
     const val MIN_FPS = 30
-    const val MAX_FPS = 60
+    const val MAX_FPS = 120
     const val FPS_STEP = 5
     const val DEFAULT_FPS = MAX_FPS
 
